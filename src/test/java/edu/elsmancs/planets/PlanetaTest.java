@@ -65,7 +65,6 @@ public class PlanetaTest {
 		assertEquals(66.107583, planeta.MERCURY.pesoSuperficie(pesoHumano) , 0.001);
 	}
 	
-	/*
 	@Test
 	public void ArrayPlanetasTerrestresTest(){
 
@@ -78,7 +77,7 @@ public class PlanetaTest {
 		}
 		assertThat(planetasIncluidos).isEqualTo(4);
 		
-		for(Planeta planeta : Planeta.getPlanetasTerrestres()){
+		for(Planeta planeta : Planeta.getTerrestralPlanets()){
 			assertThat(planeta.name()).isIn(planetasTerrestres);
 		}		
 	}
@@ -97,10 +96,9 @@ public class PlanetaTest {
 		}
 		assertThat(planetasIncluidos).isEqualTo(4);
 		
-		for(Planeta planeta : Planeta.getGigantesGaseosos()){
+		for(Planeta planeta : Planeta.getGaseousPlanets()){
 			assertThat(planeta.name()).isIn(gigantesGaseosos);
 		}		
 	}
-	*/
 
 }
