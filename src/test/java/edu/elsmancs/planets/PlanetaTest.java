@@ -1,6 +1,8 @@
 package edu.elsmancs.planets;
 
 import static org.assertj.core.api.Assertions.*;
+import static org.junit.Assert.assertEquals;
+
 import org.junit.BeforeClass;
 import org.junit.Test;
 
@@ -48,7 +50,6 @@ public class PlanetaTest {
 		assertThat(planeta.getRadius()).isEqualTo(2.4397e+6);
 	}	
 	
-	
 	@Test
 	public void PlanetaNamesIteratorTest(){
 		for(Planeta planeta : Planeta.values()){
@@ -56,7 +57,6 @@ public class PlanetaTest {
 		}
 	}
 	
-	/*
 	@Test
 	public void PesoSuperficieMercurioTest(){
 		Planeta planeta = Planeta.MERCURY;
@@ -64,6 +64,7 @@ public class PlanetaTest {
 		assertEquals(66.107583, planeta.MERCURY.pesoSuperficie(pesoHumano) , 0.001);
 	}
 	
+	/*
 	@Test
 	public void ArrayPlanetasTerrestresTest(){
 
