@@ -24,10 +24,20 @@ public enum Planeta {
 		this.gravityOnSurface = G * mass / (radius*radius);
 	}
 
-
 	public double pesoSuperficie(double personWeightOnEarth) {
 		double personMass = personWeightOnEarth / EARTH.gravityOnSurface;
 		return personMass * gravityOnSurface;
 	}
+	
+	/**
+	 * Methods only for testing purposes 
+	 */
 	 
+	double getMass() {
+		return this.mass;
+	}
+	
+	double getRadius() {
+		return this.radius;
+	}
 }
