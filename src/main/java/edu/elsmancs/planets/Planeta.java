@@ -45,7 +45,7 @@ public enum Planeta {
 		return this.radius;
 	}
 
-	static List<Planeta> getTerrestralPlanets() {
+	public static List<Planeta> getTerrestralPlanets() {
 		List<Planeta> terrestralPlanets = new ArrayList<Planeta>();
 		for(int i = 0; i < JUPITER.ordinal(); i++) {
 			terrestralPlanets.add(Planeta.values()[i]);
@@ -53,7 +53,7 @@ public enum Planeta {
 		return terrestralPlanets;
 	}
 	
-	static List<Planeta> getGaseousPlanets() {
+	public static List<Planeta> getGaseousPlanets() {
 		List<Planeta> gaseousPlanets = new ArrayList<Planeta>();
 		for(int i = JUPITER.ordinal(); i < NEPTUNE.ordinal(); i++) {
 			gaseousPlanets.add(Planeta.values()[i]);
