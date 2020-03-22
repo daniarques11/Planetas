@@ -40,4 +40,5 @@ public enum Planeta {
 	double getRadius() {
 		return this.radius;
 	}
+	
 }

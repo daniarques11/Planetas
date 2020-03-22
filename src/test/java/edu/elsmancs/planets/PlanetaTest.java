@@ -36,17 +36,18 @@ public class PlanetaTest {
 		assertThat(Planeta.values()[0]).isEqualTo(planeta);
 	}
 	
-	/* @Test
+	@Test
 	public void PlanetaGetMasaTest(){		
 		Planeta planeta = Planeta.MERCURY;
-		assertThat(planeta.getMasa()).isEqualTo(3.303e+23);
+		assertThat(planeta.getMass()).isEqualTo(3.303e+23);
 	}
 	
 	@Test
 	public void PlanetaGetRadioTest(){		
 		Planeta planeta = Planeta.MERCURY;
-		assertThat(planeta.getRadio()).isEqualTo(2.4397e+6);
+		assertThat(planeta.getRadius()).isEqualTo(2.4397e+6);
 	}	
+	
 	
 	@Test
 	public void PlanetaNamesIteratorTest(){
@@ -55,6 +56,7 @@ public class PlanetaTest {
 		}
 	}
 	
+	/*
 	@Test
 	public void PesoSuperficieMercurioTest(){
 		Planeta planeta = Planeta.MERCURY;
