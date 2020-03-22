@@ -50,6 +50,7 @@ public class PlanetaTest {
 		assertThat(planeta.getRadius()).isEqualTo(2.4397e+6);
 	}	
 	
+	
 	@Test
 	public void PlanetaNamesIteratorTest(){
 		for(Planeta planeta : Planeta.values()){
