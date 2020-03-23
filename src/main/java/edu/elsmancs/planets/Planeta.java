@@ -1,6 +1,5 @@
 package edu.elsmancs.planets;
 
-import java.awt.font.NumericShaper.Range;
 import java.util.ArrayList;
 import java.util.List;
 
