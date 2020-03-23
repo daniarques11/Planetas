@@ -16,7 +16,7 @@ public enum Planeta {
 	URANUS  (8.686e+25, 2.5559e7),     
 	NEPTUNE (1.024e+26, 2.4746e7);
 	
-	private double G = 6.67300E-11;
+	private final double G = 6.67300E-11;
 	private final double mass;
 	private final double radius;
 	private final double gravityOnSurface;
